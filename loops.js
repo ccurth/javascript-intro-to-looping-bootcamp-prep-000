@@ -7,15 +7,5 @@ function forLoop(array) {
    else {
      array.push(`I am ${i} strange loops.`);
    }
-  
-}
-return array;
-}
-let countdown = 100
-
-function whileLoop(number) {
-  while (countdown > 0) {
-    console.log(--number);
-  }
-  return "done"
+ }
 }
