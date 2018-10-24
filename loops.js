@@ -26,7 +26,7 @@ function incrementVariable() {
 }
  
 do {
-  console.log("doo-bee-doo-bee-doo");
+  console.log(array.length > 0 && incrementVariable());
   incrementVariable();
 } while (i < 5);
 }
